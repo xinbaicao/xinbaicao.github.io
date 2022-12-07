@@ -18,7 +18,7 @@
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+  <meta name="description" content="XinBaiCao dapp project.">
 
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -34,12 +34,23 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '3165647653';
+    var serviceWorkerVersion = '362024238';
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
 </head>
 <body>
+<script type="text/javascript">
+// js端方法
+// function add(int a, int b){
+//   return a + b;
+// }
+function test(){
+    var sum = window.add(12,23);
+    alert("JS调用Flutter端方法add(12,23)结果为：" + data);
+}
+</script>
+<script type="text/javascript" src="js/test.js"></script>
   <script>
     window.addEventListener('load', function(ev) {
       // Download main.dart.js
