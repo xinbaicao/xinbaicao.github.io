@@ -23182,9 +23182,9 @@ M6(a){var s=0,r=A.U(t.H),q,p,o,n
 var $async$M6=A.V(function(b,c){if(b===1)return A.R(c,r)
 while(true)switch(s){case 0:o=$.awy
 n=$.awx
-A.J("\u94b1\u5305usdt\uff1a")
+A.J("\u94b1\u5305usdt\u4f59\u989d\uff1a")
 A.J(o)
-A.J("\u94b1\u5305upc\uff1a")
+A.J("\u94b1\u5305upc\u4f59\u989d\uff1a")
 A.J(n)
 s=2
 return A.A(A.i_(),$async$M6)
