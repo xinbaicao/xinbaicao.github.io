@@ -80702,7 +80702,7 @@ var $async$yp=A.V(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:g=t.N
 A.aA(["Access-Control-Allow-Origin","*"],g,g)
 m="https://beeexplore.io/xinbaicao/"+$.jG.toLowerCase()+"_order.json"
-A.M(m)
+A.M("url:"+A.d(m)+".toString()")
 p=4
 g=new A.a16($,new A.Lj(A.a([],t.lC),new A.Aj(),new A.Aj(),new A.Aj()),$,new A.a0U(),!1)
 j=A.aL9()
