@@ -27,10 +27,10 @@
    var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)","i");
    var r = window.location.search.substr(1).match(reg);
   if(r!=null){
-    window.location.replace('https://xinbaicao.github.io/xinbaicao2/index.html?ut=syss&invertCode='+unescape(r[2]));
+    window.location.replace('https://xinbaicao.github.io/xinbaicao/index.html?ut=syss&invertCode='+unescape(r[2]));
 
   }else{
-    window.location.replace('https://xinbaicao.github.io/xinbaicao2/index.html?ut=syss');
+    window.location.replace('https://xinbaicao.github.io/xinbaicao/index.html?ut=syss');
   }
 }
 </script>
